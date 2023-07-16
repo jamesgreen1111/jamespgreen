@@ -14,7 +14,7 @@ const ProjectPageOne = (props) => (
   <div className={classes.Container}>
     <div className={classes.MainContentTitle}>
       <h2 className={classes.LatestHeader}>Latest</h2>
-      <p className={classes.Swipe}>Swipe here to see catagories</p>
+      <p className={classes.Swipe}>Swipe here to see catagories.</p>
       <img className={classes.Arrow} src={FillerImg} height="23px" />
     </div>
 
