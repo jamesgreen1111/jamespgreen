@@ -1,0 +1,30 @@
+.Layout {
+  max-width: 100vw;
+  height: 100%;
+  background-color: #252a34;
+  font-family: "Roboto", medium;
+  line-height: 1.7;
+}
+.bodycontentcontainer {
+  margin-top: 7.5rem;
+}
+.slide {
+  padding: 15px;
+  min-height: 200px;
+  color: green;
+}
+.slide1 {
+  background: tomato;
+}
+.slide2 {
+  background: violet;
+}
+.slide3 {
+  background: white;
+}
+
+.test {
+  width: 30px;
+  height: 30px;
+  color: violet;
+}

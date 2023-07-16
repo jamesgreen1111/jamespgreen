@@ -1,0 +1,15 @@
+.Container {
+    position: relative;
+    bottom: 15px;
+    width: 99%;
+    padding-top: 30px;
+}
+.Container p {
+    padding-left: 40px;
+}
+.Line {
+    margin-left: 30px;
+    width: 90%;
+    height: 1px;
+    background-color: #00E4C3;
+}

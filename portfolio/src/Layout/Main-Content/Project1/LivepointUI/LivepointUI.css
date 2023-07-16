@@ -1,0 +1,187 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+/* page 1 */
+.livepointUI-intropage {
+  height: 84vh;
+  background-color: #252a34;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 20.375rem 9.375rem 0 9.375rem;
+}
+.livepointUI-right {
+  align-items: right;
+  text-align: right;
+}
+.livepointUI-title-container {
+  display: flex;
+  flex-direction: row;
+}
+.livepointUI-title-container h1 {
+  color: #00ceb4;
+  font-size: 2.2rem;
+}
+.livepointUI-title-container p {
+  display: flex;
+  align-items: center;
+  opacity: 50%;
+  margin-left: 0.625rem;
+  font-size: 0.8rem;
+}
+.livepointUI-intropage-para {
+  color: white;
+  font-style: italic;
+  width: 100%;
+  max-width: 31.25rem;
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+.livepointUI-intro-para-highlight {
+  background-color: #00ceb4;
+  padding: 0.0625rem 0.125rem 0.0625rem 0.25rem;
+  position: relative;
+}
+.livepointUI-cat-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 1.875rem;
+}
+.livepointUI-catagory {
+  border: solid 1px #00ceb4;
+  color: white;
+  padding: 0 5px 0 5px;
+  width: 5rem;
+  text-align: center;
+  margin-right: 1.25rem;
+  font-size: 0.8rem;
+}
+.livepointUI-seelive-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.livepointUI-seelive {
+  border: solid 1px #00ceb4;
+  color: #00ceb4;
+  padding: 0 0.5rem 0 0.5rem;
+  max-width: 12.5rem;
+  font-size: 0.8rem;
+  margin-right: 10px;
+  transition: 0.3s ease-in-out;
+}
+.livepointUI-seelive:hover {
+  border: solid 1px #00ceb4;
+  background: #00ceb4;
+  color: white;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+/* page 2 */
+.livepointUI-intro {
+  height: 60vh;
+  background-color: #2e3440;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10.375rem 14rem 0 14rem;
+}
+.livepointUI-intro-title {
+  font-size: 1.8rem;
+  border-bottom: #00ceb4 solid 1px;
+  width: 16%;
+  margin-bottom: 2.5rem;
+}
+.livepointUI-intro-para {
+  width: 100%;
+  font-size: 1.2rem;
+  text-align: justify;
+}
+.livepointUI-intro img {
+  position: relative;
+  top: 3.125rem;
+  width: 37.5rem;
+}
+/* page 3 */
+.livepointUI-problem {
+  padding: 10.375rem 14rem 0 14rem;
+}
+.livepointUI-para-wrap {
+  background-color: #252a34;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+#livepointUI-intro-para-spacing {
+  padding-left: 3.125rem;
+}
+.livepointUI-problem-img {
+  display: flex;
+  max-width: 100%;
+  margin: auto;
+}
+/* page 4 */
+.livepointUI-wireframes {
+  height: 80vh;
+  background-color: #252a34;
+  padding: 10.375rem 14rem 0 14rem;
+  overflow: hidden;
+}
+.livepointUI-wireframe-img-one {
+  display: flex;
+  max-width: 100%;
+  margin: auto;
+  width: 34.375rem;
+}
+.livepointUI-wireframe-img-bottom-container {
+  margin-top: 6.25rem;
+  width: 100%;
+  height: 15.625rem;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.livepointUI-wireframe-bottom-img {
+  width: auto;
+}
+.livepointUI-wireframe-arrow {
+  color: #00ceb4;
+  font-size: 2rem;
+}
+/* page 5 */
+.livepointUI-solution {
+  background-color: #252a34;
+  height: 35vh;
+  padding: 10.375rem 14rem 0 14rem;
+}
+.livepointUI-full-img {
+  width: 100%;
+  margin-bottom: 3.125rem;
+}
+.livepointUI-goodbye-message {
+  font-size: 1.8rem;
+  text-align: center;
+  margin-bottom: 3.125rem;
+}
+.livepointUI-goodbye-message-small {
+  font-size: 0.8rem;
+}
+.Link {
+  margin-top: 2.5rem;
+  color: #00ceb4;
+  margin-left: 2.5rem;
+}
+.link {
+  text-decoration: none;
+}
+
+@media (max-width: 1100px) {
+  .Link {
+    margin-top: 2.5rem;
+    color: white;
+    margin-left: 2.5rem;
+  }
+}

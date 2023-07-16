@@ -1,0 +1,19 @@
+.Arrow {
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  right: 30px;
+  top: 40px;
+  transition: transform 0.3s ease-out;
+  z-index: 300;
+}
+
+.Arrow:hover {
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  right: 30px;
+  top: 40px;
+  transition: transform 0.3s ease-out;
+  transform: rotate(-180deg);
+}
